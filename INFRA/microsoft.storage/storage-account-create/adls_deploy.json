@@ -35,7 +35,7 @@
     },
     "storageAccountName": {
       "type": "string",
-      "defaultValue": "[format('store{0}', uniqueString(resourceGroup().id))]",
+      "defaultValue": "my_storage_account_name",
       "metadata": {
         "description": "The name of the Storage Account"
       }
