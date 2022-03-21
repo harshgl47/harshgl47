@@ -26,7 +26,7 @@ az deployment group create \
   --template-file $templateFile \
   --parameters $parametersFile
 
---Azure Data Factory (akv-data-kv-dev)
+--Azure Key Vault (akv-data-kv-dev)
 templateFile="C:\Users\harshitgoyal\Downloads\gitUseFullPublicRepo\harshgl47\INFRA\microsoft.keyvault\key-vault-create\akv_deploy.json"
 parametersFile="C:\Users\harshitgoyal\Downloads\gitUseFullPublicRepo\harshgl47\INFRA\microsoft.keyvault\key-vault-create\akv_deploy.parameters.json"
 az deployment group create \
